@@ -9,11 +9,7 @@ public class LevelManager : MonoBehaviour {
         Debug.Log("New Level load: " + name);
         Application.LoadLevel(name);
     }
-    public void QuitRequest()
-    {
-        Debug.Log("Quit requested");
-        Application.Quit();
-    }
+  
     public static void LoadNextLevel()
     {
         //   SceneManager.LoadScene(SceneManager.loadedScene + 1);
